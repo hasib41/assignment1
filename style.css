@@ -104,14 +104,14 @@ header h1 {
 
 
 
-.why-web-dev h2, .inspiration h2, .current-target h2, .next-target h2, .support h2 {
+.why-web-dev h2, .inspiration h2, .current-target h2, .next-target h2{
     font-size: 32px;
     font-weight: bolder;
     color: #0D1321;
     margin-bottom: 24px;
 }
 
-.why-web-dev p, .inspiration p, .current-target p, .next-target p, .support p {
+.why-web-dev p, .inspiration p, .current-target p, .next-target p {
     font-size: 16px;
     color: #0D1321;
     margin-bottom: 48px;
@@ -175,7 +175,7 @@ header h1 {
     padding: 40px 40px;
     width: 364px;
     height: 260px;
-    /* margin: 24px; */
+     margin: 24px;
 }
 
 .card2 h3 {
@@ -221,10 +221,18 @@ background: rgba(0, 76, 232, 0.05)
     background: rgba(255, 223, 0, 0.05);
   }
 
-.next-target{
+   .next-target{
         padding: 50px 0;
         background: #fff;
-        margin: 20px 0;
+        margin-bottom: 100px;
+    }
+    .card3{
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        margin: 24px;
+
     }
 
     .support
@@ -232,7 +240,31 @@ background: rgba(0, 76, 232, 0.05)
         padding: 50px 0;
         background: #fff;
         margin: 20px 0;
+        background-image: url('assets/handshake.jpg');
+        background-size: cover;
+        background-position: center;
+        margin-top: 100px;
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     }
+.support h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 .support form {
     display: flex;
     justify-content: center;
@@ -244,15 +276,30 @@ background: rgba(0, 76, 232, 0.05)
     margin-right: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
 }
-.support button {
-    padding: 10px 20px;
-    background: #000;
-    color: #fff;
-    border: none;
+.support h4 button {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 14px;
-    border-radius: 4px;
+    padding: 10px;
+    height: 40px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 footer {
