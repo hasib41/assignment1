@@ -89,6 +89,9 @@ header h1 {
     border-radius: 8px;
     margin: 0 auto;
     margin-top: 74px;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
 }
 .why-web-container{
     text-align: center;
@@ -236,7 +239,7 @@ background: rgba(0, 76, 232, 0.05)
     }
 
     .support
-    {
+    {  
         padding: 50px 0;
         background: #fff;
         margin: 20px 0;
@@ -245,7 +248,8 @@ background: rgba(0, 76, 232, 0.05)
         background-position: center;
         margin-top: 100px;
         border-radius: 16px;
-        background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+        background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     }
 .support h2{
     color: rgb(255, 255, 255);
@@ -301,19 +305,22 @@ background: rgb(255, 255, 255);
     letter-spacing: 0%;
     text-align: center;
 }
-
 footer {
-    background: #fff;
-    padding: 20px 0;
-    border-top: 1px solid #ddd;
-    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 79px;
+    height: 100px;
+    align-items: center;
 }
-
 footer p {
     margin: 0;
-    color: #666;
-}
+    color: #666;   
 
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
 .social-icons {
     margin-top: 10px;
 }
