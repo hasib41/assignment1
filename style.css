@@ -184,8 +184,9 @@ background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
     padding: 40px 40px;
     width: 364px;
-    height: 260px;
+    height: 300px;
      margin: 24px;
+
 }
 
 .card2 h3 {
@@ -355,4 +356,5 @@ footer p {
 } */
 .learnmorebtn{
     text-decoration: none;
+    margin-bottom: 20px;
 }
